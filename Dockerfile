@@ -5,5 +5,5 @@ RUN mkdir /cat_app
 WORKDIR /cat_app
 
 ADD ./Gemfile /cat_app
-#ADD ./Gemfile.lock /cat_app
+ADD ./Gemfile.lock /cat_app
 RUN bundle install
